@@ -39,7 +39,10 @@ public class Text5 {
                */
           }  
           System.out.println("二进制前后颠倒后--->"+sb.toString());//二进制前后颠倒后--->0101  
-          Integer it=Integer.valueOf(sb.toString(), 2);//二进制----->十进制   
+          Integer it=Integer.valueOf(sb.toString(), 2);//二进制----->十进制
+          /*
+           * Integer.valueOf(sb.toString(), 2)这个方法是把二进制下的sb.toString()，转换成十进制下对应的数字
+           */
           System.out.println(" 颠倒后的二进制对应的十进制--->"+it );// 颠倒后的二进制对应的十进制--->5  
 
       }  

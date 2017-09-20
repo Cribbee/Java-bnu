@@ -13,7 +13,7 @@ public class Text1 {
 	public static void main (String[] args){ 
 		Scanner input = new Scanner(System.in);//从键盘输入一个5位数，把每位上的数字相加，求和
 		System.out.print("请输入一个5位数：");
-		int num = input.nextInt();
+		int num = input.nextInt();//input.nextInt()这个意思是使用控制台输入的方式输入下一个整数。
 		int shu=1;
 		int s=0;
 		for(int i=1;i<=5;i++){
