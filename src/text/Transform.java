@@ -1,5 +1,5 @@
-/*
-   * Class name£ºText3
+/**
+   * Class name£ºTransform
    *
    * Version information:  1.0
    *
@@ -9,9 +9,9 @@
  */
 package text;
 
-public class Text5 {
+public class Transform {
 	public static void main(String[] args){  
-        Text5 text=new Text5();  
+        Transform text=new Transform();  
         text.change((char)10);      
    }     
    public void change(char c){  

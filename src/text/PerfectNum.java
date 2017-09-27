@@ -1,5 +1,5 @@
-/*
-   * Class name£ºText4
+/**
+   * Class name£ºPerfectNum
    *
    * Version information:  1.0
    *
@@ -9,7 +9,7 @@
  */
 package text;
 
-public class Text4 {
+public class PerfectNum {
 	public static void main(String[] args){
 		int sum=0;
 		for(int i=1;i<=1000;i++){

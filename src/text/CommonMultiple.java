@@ -1,5 +1,5 @@
- /*
-   * Class name：Text3
+ /**
+   * Class name：CommonMultiple
    *
    * Version information:  1.0
    *
@@ -9,9 +9,13 @@
  */
 package text;
 import java.util.Scanner;
-public class Text3 {
+public class CommonMultiple {
 	public static void main (String[] args){
 		Scanner input = new Scanner(System.in);//从键盘输入两个数a、b求出其最大公约数和最小公倍数
+        /*
+         * new是给对象new（开辟）一个空间存储扫描进来的东西。
+         * System.in 是PrintStream（字节打印流）的一个实例 ，只能按字节读取
+         */
 		int m=0;
 		int n=0;
 		int i=0;

@@ -1,5 +1,5 @@
- /*
-   * Class name：Text1
+ /**
+   * Class name：FiveNum
    *
    * Version information:  1.0
    *
@@ -9,7 +9,7 @@
  */
 package text;
 import java.util.Scanner;
-public class Text1 {
+public class FiveNum {
 	public static void main (String[] args){ 
 		Scanner input = new Scanner(System.in);//从键盘输入一个5位数，把每位上的数字相加，求和
 		System.out.print("请输入一个5位数：");
@@ -19,7 +19,7 @@ public class Text1 {
 		for(int i=1;i<=5;i++){
 			shu=1;
 			for(int j=1;j<=6-i;j++){
-				shu*=10;
+				shu*=10;	
 			}
 			num%=shu;                                            
 			s+=num/(shu/10);

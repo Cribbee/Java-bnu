@@ -1,5 +1,5 @@
- /*
-   * Class name：Text2
+ /**
+   * Class name：PrintStar
    *
    * Version information:  1.0
    *
@@ -22,7 +22,7 @@
  */
 package text;
 import java.util.Scanner;
-public class Text2 {
+public class PrintStar {
 	public static void main (String[] args){
 		Scanner input = new Scanner(System.in);//从控制台输入数字，输出图形
 		System.out.print("请输入一个数字：");
